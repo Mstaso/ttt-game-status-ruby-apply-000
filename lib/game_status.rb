@@ -22,15 +22,8 @@ WIN_COMBINATIONS = [
 #  6 | 7 | 8   
   
 def won?(board)
-  win_combination.each do |board|
-    win_index_1 = [0, 1, 2]
-    win_index_2 = [3, 4, 5]
-    win_index_3 = [6, 7, 8]
-    win_index_4 = [0, 3, 6]
-    win_index_5 = [1, 4, 7]
-    win_index_6 = [2, 5, 8]
-    win_index_7 = [0, 4, 8]
-    win_index_8 = [2, 4, 6]
+  
+ 
     
     position_1 = board(win_index_1)
   else
