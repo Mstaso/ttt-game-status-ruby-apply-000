@@ -27,7 +27,7 @@ def won?
    index_1 = win_combo[1]
    index_2 = win_combo[2]
    
-   position_1 = 
+   position_1 = @board
     position_1 = board(win_index_1)
   else
     false
