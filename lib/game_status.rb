@@ -41,7 +41,8 @@ end
 
 def draw?(board)
   if won? && full? 
-  board.draw? {|index| 
+  return true
+  
 
 
 
