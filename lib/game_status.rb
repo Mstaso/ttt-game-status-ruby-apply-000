@@ -31,6 +31,7 @@ def won?
    position_2 = board[index_2]
    position_3 = board[index_3]
    
+   if position_1 = 
   else
     false
   end
