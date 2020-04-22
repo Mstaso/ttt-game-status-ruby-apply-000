@@ -23,10 +23,10 @@ WIN_COMBINATIONS = [
   
 def won?
   WIN_COMBINATIONS.each {|win_combo|
-   index_0 = win_combo[1] 
-  
- 
-    
+   index_0 = win_combo[0] 
+   index_1 = win_combo[1]
+   index_2 = win_combo[2]
+   
     position_1 = board(win_index_1)
   else
     false
