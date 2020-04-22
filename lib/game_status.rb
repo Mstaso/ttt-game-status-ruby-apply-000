@@ -17,7 +17,7 @@ WIN_COMBINATIONS = [
   
   
 def won?
-  WIN_COMBINATIONS = [] 
+  board = [] 
   WIN_COMBINATIONS.each {|win_combo|
    index_0 = win_combo[0] 
    index_1 = win_combo[1]
@@ -28,9 +28,9 @@ def won?
    position_3 = board[index_3]
    
    if position_1 == "X" && position_2 == "X" && position_3 == "X"
-     return win_combo
+     return board
     elsif position_1 == "O" && position_2 == "O" && position_3 == "O"
-    return win_combo
+    return board
   end
   }
   return false
