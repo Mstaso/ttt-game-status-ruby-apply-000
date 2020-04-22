@@ -58,7 +58,7 @@ end
 def winner?(board)
   index = []
   index = won?
-  if won?(board) == "X"
+  if index == false
     puts "player X"
 
 
