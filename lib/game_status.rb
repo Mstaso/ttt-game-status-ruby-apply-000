@@ -23,6 +23,7 @@ WIN_COMBINATIONS = [
   
 def won?
   WIN_COMBINATIONS.each {|win_combo|
+   index_0
   
  
     
