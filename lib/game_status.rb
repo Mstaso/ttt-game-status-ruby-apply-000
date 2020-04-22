@@ -17,7 +17,7 @@ WIN_COMBINATIONS = [
   
   
 def won?
-  winning_comob = [] 
+  WIN_COMBINATIONS = [] 
   WIN_COMBINATIONS.each {|win_combo|
    index_0 = win_combo[0] 
    index_1 = win_combo[1]
