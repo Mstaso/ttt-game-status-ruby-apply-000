@@ -37,6 +37,8 @@ def won?
     return win_combo
   end
   }
+  return false
+end
   
   else
     false
