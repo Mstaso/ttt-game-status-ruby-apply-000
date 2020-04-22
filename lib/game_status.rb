@@ -55,7 +55,9 @@ def over?(board)
   end
 end  
 
-
+def winner?(board)
+  if won?(board) == "X"
+    puts "player X"
 
 
 
