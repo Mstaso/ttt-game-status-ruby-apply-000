@@ -36,7 +36,7 @@ end
 end
   
 def full
-  board.all?
+  board.all? {|index
 end  
 
 
