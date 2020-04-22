@@ -40,10 +40,6 @@ def won?
   return false
 end
   
-  else
-    false
-  end
-end  
 
     
     
