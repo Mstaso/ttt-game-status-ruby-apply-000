@@ -35,6 +35,8 @@ def won?
      return win_combo
     elsif position_1 == "0" && position_2 == "0" && position_3 == "0"
     return win_combo
+  end}
+  
   else
     false
   end
