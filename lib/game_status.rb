@@ -21,7 +21,8 @@ WIN_COMBINATIONS = [
 #-----------   
 #  6 | 7 | 8   
   
-def won?(board)
+def won?
+  WIN_COMBINATIONS
   
  
     
