@@ -56,6 +56,8 @@ def over?(board)
 end  
 
 def winner?(board)
+  index = []
+  
   if won?(board) == "X"
     puts "player X"
 
