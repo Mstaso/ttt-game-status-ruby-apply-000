@@ -61,7 +61,7 @@ def winner?(board)
   if index == false
     return nil
   else
-    board
+    board[index_0]
 
 
 
