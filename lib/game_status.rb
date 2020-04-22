@@ -22,7 +22,7 @@ WIN_COMBINATIONS = [
 #  6 | 7 | 8   
   
 def won?
-  WIN_COMBINATIONS
+  WIN_COMBINATIONS.each 
   
  
     
